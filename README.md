@@ -1,10 +1,8 @@
-# pigello
-
-PlanetaryPlay API
+# PlanetaryPlay API
 
 A pointless system that lets users add and remove solar system objects that orbits planets – relative to our actual solar system.
 
-General Information
+## General Information
 
 The system will keep track of the “custom solar system” – and will be able to return information about it, as well as allow manipulation of which bodies orbits which planets.
 
@@ -16,27 +14,27 @@ To get information about our real solar system, the Solar System openData – AP
 
 It is fine to use another API that can be used to represent our actual solar system
 
-Functional Description
+## Functional Description
 
-· A user of PlanetaryPlay can’t modify anything about planets, they can’t modify which planets exists or any other information about the planet. In other words, our real solar system dictates which planets exists.
+- A user of PlanetaryPlay can’t modify anything about planets, they can’t modify which planets exists or any other information about the planet. In other words, our real solar system dictates which planets exists.
 
-· A user of PlanetaryPlay should be able to see which planets exists, and which bodies orbits those planets, in the “custom solar system”.
+- A user of PlanetaryPlay should be able to see which planets exists, and which bodies orbits those planets, in the “custom solar system”.
 
-o Information about a planet should at least contain information about it’s: Name, Mass, Gravity Constant, Volume
+- Information about a planet should at least contain information about it’s: Name, Mass, Gravity Constant, Volume
 
-o Information about an orbiting body should at least contain information about it’s: Name, Mass, Gravity Constant, Volume
+- Information about an orbiting body should at least contain information about it’s: Name, Mass, Gravity Constant, Volume
 
-· A user of PlanetaryPlay should be able to add a new body that orbits a given planet.
+- A user of PlanetaryPlay should be able to add a new body that orbits a given planet.
 
-· A user of PlanetaryPlay should be able to remove a body that orbits a given planet, including bodies that is not added by the users of PlanetaryPlay, but that exists in our real solar system.
+- A user of PlanetaryPlay should be able to remove a body that orbits a given planet, including bodies that is not added by the users of PlanetaryPlay, but that exists in our real solar system.
 
-· A user of PlanetaryPlay should be able to modify any given body that orbits a planet.
+- A user of PlanetaryPlay should be able to modify any given body that orbits a planet.
 
-· A user of PlanetaryPlay should be able to (directly from the backends responses) see the total mass, volume and density of all bodies, including the plantes, around a given/provided set of planets.
+- A user of PlanetaryPlay should be able to (directly from the backends responses) see the total mass, volume and density of all bodies, including the plantes, around a given/provided set of planets.
 
 Note – you must implement all solutions, no pseudo code or template code.
 
-Practical Information
+## Practical Information
 
 A REST API will be written.
 

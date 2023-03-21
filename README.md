@@ -57,3 +57,11 @@ After any modification to database models, generate migration files with python 
 To apply migrations, run python manage.py migrate
 
 To run server, run python manage.py runserver
+
+## Conclusion
+
+- Fun exercise. About a year since I recently used Django. Nice to be back.
+- Listen multiple planets fro set does not. Have not added that endpoint
+- As I have choosen to have two lists in showing the moons connected to a specific planet could be nicer.
+- There is an embroy of tests. If I had more time adding more will be needed.
+- Total time was about 2.5 hours.
